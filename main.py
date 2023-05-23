@@ -19,7 +19,7 @@ parkinson_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\
 #slidebar navigation
 
 with slt.sidebar:
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Ultimate Disease Prediction app',
 
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
