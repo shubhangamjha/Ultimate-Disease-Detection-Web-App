@@ -8,11 +8,11 @@ import tensorflow as tf
 #loading saved models
 
 
-diabeties_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\\practicum\\Sav files\\diabetes_model.sav', 'rb'))
+diabeties_model = pickle.load(open('sav/diabetes_model.sav', 'rb'))
 
-heart_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\\practicum\\Sav files\\heart_disease_model.sav', 'rb'))
+heart_model = pickle.load(open('sav/heart_disease_model.sav', 'rb'))
 
-parkinson_model = pickle.load(open('C:\\Users\\Shubhangam\\Desktop\\Programming\\practicum\\Sav files\\parkinsons_model.sav', 'rb'))
+parkinson_model = pickle.load(open('sav/parkinsons_model.sav', 'rb'))
 
 
 
